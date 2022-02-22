@@ -467,3 +467,92 @@ body {
 .ourr{
     margin-right: 95px;
 }
+
+@media screen and (max-width: 770px) {
+    .container{
+        width: 670px;
+    }
+
+    .dd{
+        display: flex;
+    }
+
+   #choose{
+       margin-top: 700px;
+   }
+
+   .choose__item{
+       width: 90%;
+       margin-bottom: 20px;
+   }
+
+   #works{
+       margin-top: 1000px;
+   }
+
+   .ball,
+   .hr,
+   .balll,
+   .ballll{
+       display: none;
+   }
+
+   .works__list{
+       display: flex;
+   }
+
+   .works__item{
+       width: 223px;
+   }
+}
+
+.works__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 380px) {
+    .container{
+        width: 380px;
+    }
+
+    .header__list{
+        display: none;
+    }
+
+    #great{
+        width: 100%;
+    }
+
+    .coffee,
+    .start{
+        width: 279px;
+    }
+
+    .ll,
+    .dd{
+        flex-direction: column;
+    }
+
+    #choose{
+        margin-top: 1300px;
+        width: 327px;
+        padding: 0;
+    }
+
+    .choose__titlee,
+    .large{
+        width: 279px;
+        /* margin: 0 auto; */
+        /* margin-left: -20px; */
+    }
+
+    .choose__item{
+        width: 80%;
+        margin-left: -50px;
+    }
+
+    #works{
+        margin-top: 1150px;
+    }
+}
